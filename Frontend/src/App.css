@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.predict-form {
+  margin: 20px auto;
+  width: 60%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  background-color: #e9f5ff;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
